@@ -1,0 +1,12 @@
+header {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: large;
+    background-color: dimgray;
+    color:#505050;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.nav-link {
+    color: #505050;
+    font-family: 'Cormorant Garamond', serif;
+}

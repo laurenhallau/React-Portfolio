@@ -1,12 +1,14 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import { Nav } from "reactstrap";
+import "./style.css";
 
 function NavTabs() {
   const location = useLocation();
 
   return (
     <header>
-      <nav className="navbar bg-light">
+      <Nav className="navbar bg-light">
         <span className="navbar-text">Lauren W Hallau</span>
 
         <ul className="nav justify-content-end">
@@ -51,8 +53,8 @@ function NavTabs() {
             </Link>
           </li>
         </ul>
-      </nav>
-    </header>
+      </Nav>
+      </header>
   );
 }
 export default NavTabs;

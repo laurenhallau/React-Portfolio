@@ -7,7 +7,6 @@ import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 import Wrapper from "./components/Wrapper";
 import Footer from "./components/Footer";
-// import './App.css';
 
 function App() {
   return (
