@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import About from "../src/pages/About";
+import Home from "./pages/Home";
 import NavTabs from "./components/NavTabs";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
@@ -15,7 +15,7 @@ function App() {
       <div>
         <NavTabs />
         <Wrapper>
-          <Route exact path="/" component={About} />
+          <Route exact path="/" component={Home} />
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/resume" component={Resume} />
           <Route exact path="/contact" component={Contact} />

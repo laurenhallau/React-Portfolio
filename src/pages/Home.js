@@ -1,6 +1,6 @@
 import React from "react";
 
-function About() {
+function Home() {
     return (
         <div>
           <h1>Lauren W Hallau</h1>
@@ -11,4 +11,4 @@ function About() {
     );
 }
 
-export default About;
+export default Home;
