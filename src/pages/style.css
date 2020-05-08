@@ -4,11 +4,15 @@
     border-radius: 4px;
     padding: 5px;
     width: 200px;
-    margin-top: 100px;
-    margin-left: 50px;
+    margin-left: 75px;
   }
 
-  .col-8 {
+  .col {
     font-family: 'Cormorant Garamond', serif;
     margin-top: 120px;
   }
+
+CardImg {
+  width: 28rem;
+  
+}  

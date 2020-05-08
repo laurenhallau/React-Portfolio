@@ -5,17 +5,20 @@ import "./style.css";
 
 function Home() {
   return (
-    <Container className="container-fluid">
+    <Container fluid>
       <Row>
-        <Col xs="4">
+        <Col size="md-4">
           <img src={ProfilePic}
            alt="Lauren Hallau Pic"></img>
         </Col>
-        <Col xs="8">Developing full-stack coder with an education background.
+        <Col size="md-8">
+        <p>Developing full-stack coder with an education background.
 
         Wants to make a difference in the world.
         
-        Fluent in Spanish, proficient in German, developing in HTML, CSS, Javascript! Enjoys languages of all types!</Col>
+        Fluent in Spanish, proficient in German, developing in HTML, CSS, Javascript! Enjoys languages of all types!
+        </p>
+        </Col>
       </Row>
     </Container>
   );

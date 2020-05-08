@@ -8,7 +8,7 @@ function NavTabs() {
 
   return (
     <header>
-      <Nav className="navbar bg-light">
+      <Nav className="navbar">
         <span className="navbar-text">Lauren W Hallau</span>
 
         <ul className="nav justify-content-end">

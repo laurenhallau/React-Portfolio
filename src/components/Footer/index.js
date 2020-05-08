@@ -1,10 +1,10 @@
 import React from "react";
-// import "./style.css";
+import "./style.css";
 
 function Footer() {
     return (
         <footer className="footer">
-          <span>LWH 2020</span>
+          <p>&copy; LWH 2020</p>
         </footer>
     );
 }

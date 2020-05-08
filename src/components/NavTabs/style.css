@@ -10,3 +10,6 @@ header {
     color: #505050;
     font-family: 'Cormorant Garamond', serif;
 }
+.navbar {
+    background-color: lightpink;
+}
