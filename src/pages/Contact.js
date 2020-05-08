@@ -10,8 +10,8 @@ function Contact() {
               <h4>I look forward to hearing from you!</h4>
               <ul>
                 <li><a className="email" href="mailto:lhallau@gmail.com">Email </a></li>
-                <li>GitHub</li>
-                <li>LinkedIn</li>
+                <li><a href="https://github.com/laurenhallau" target="blank">GitHub </a></li>
+                <li><a href="https://www.linkedin.com/in/lauren-hallau-82393744/" target="blank">LinkedIn</a></li>
               </ul>
 
             </Col>
