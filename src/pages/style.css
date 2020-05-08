@@ -16,3 +16,12 @@ CardImg {
   width: 28rem;
   
 }  
+
+.ContactContainer {
+  text-align: center;
+}
+
+
+ul {
+  list-style-type: none;
+}
