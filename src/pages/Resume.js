@@ -18,11 +18,11 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 export default class Resume extends Component {
   render() {
     return (
-      <Document
+      <Document className="resumePDF"
         file={lwh}
         onLoadSuccess={this.onDocumentLoadSuccess}
       >
-        <Page pageNumber={1} />
+     <Page  pageNumber={1} />
       </Document>
     );
   }

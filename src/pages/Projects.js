@@ -1,19 +1,19 @@
 import React from "react";
 import { Card, CardImg, CardTitle, CardText, Button, Row, Col } from "reactstrap";
-// import Project1 from "../images/project1.png";
-// import QuizGame from "../images/quizgame.png";
-// import Employee from "../images/employee.png";
-// import NoteTaker from "../images/notetaker.png";
-// import Workout from "../images/workout.png";
-// import Budget from "../images/budget.png";
+import Project1 from "../images/project1.png";
+import QuizGame from "../images/quizgame.png";
+import Employee from "../images/employee.png";
+import NoteTaker from "../images/notetaker.png";
+import Workout from "../images/workout.png";
+import Budget from "../images/budget.png";
 import "./style.css";
 
 function Projects() {
   return (
-    <Row>
+    <Row className="projectRow">
       <Col md="6">
         <Card>
-          <CardImg className="CardImg" src="#" alt="Project One" />
+          <CardImg className="CardImg" src={Project1} alt="Project One" />
           <CardTitle>Project #1</CardTitle>
           <CardText>Travel Masters: Bringing the World to You!</CardText>
           <Button 
@@ -25,7 +25,7 @@ function Projects() {
       </Col>
       <Col md="6">
         <Card>
-          <CardImg src="#" alt="#" />
+          <CardImg className="CardImg" src={QuizGame} alt="Quiz Game" />
           <CardTitle>Project #2</CardTitle>
          <CardText>Quiz Game: Create and Take Quizzes with this full-stack app</CardText>
          <Button
@@ -37,7 +37,7 @@ function Projects() {
       </Col>
       <Col md="6">
         <Card>
-          <CardImg src="#" alt="#" />
+          <CardImg className="CardImg" src={Employee} alt="Employee Directory" />
           <CardTitle>Employee Directory</CardTitle>
          <CardText>First React App</CardText>
          <Button
@@ -50,7 +50,7 @@ function Projects() {
 
       <Col md="6">
         <Card>
-          <CardImg src="#" alt="#" />
+          <CardImg className="CardImg" src={NoteTaker} alt="Note Taker" />
           <CardTitle>Note Taker</CardTitle>
           <CardText>Note Taker information here</CardText>
           <Button
@@ -62,7 +62,7 @@ function Projects() {
       </Col>
       <Col md="6">
         <Card>
-          <CardImg src="#" alt="#" />
+          <CardImg className="CardImg" src={Budget} alt="Budget Tracker" />
           <CardTitle>On/Offline Budget Tracker</CardTitle>
          <CardText>Use this budget tracker to track your expenses on and off line.</CardText>
          <Button
@@ -74,7 +74,7 @@ function Projects() {
       </Col>
       <Col md="6">
         <Card>
-          <CardImg src="#" alt="#" />
+          <CardImg className="CardImg" src={Workout} alt="Workout Tracker" />
           <CardTitle>Workout App</CardTitle>
          <CardText>Info on Workout App</CardText>
          <Button
