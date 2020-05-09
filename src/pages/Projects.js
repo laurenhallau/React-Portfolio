@@ -11,7 +11,7 @@ import "./style.css";
 function Projects() {
   return (
     <Row className="projectRow">
-      <Col md="6">
+      <Col className="col-sm-6">
         <Card>
           <CardImg className="CardImg" src={Project1} alt="Project One" />
           <CardTitle>Project #1</CardTitle>
@@ -23,7 +23,7 @@ function Projects() {
           >See More</Button>
         </Card>
       </Col>
-      <Col md="6">
+      <Col className="col-sm-6">
         <Card>
           <CardImg className="CardImg" src={QuizGame} alt="Quiz Game" />
           <CardTitle>Project #2</CardTitle>
@@ -35,7 +35,7 @@ function Projects() {
          >See More</Button>
         </Card>
       </Col>
-      <Col md="6">
+      <Col className="col-sm-6">
         <Card>
           <CardImg className="CardImg" src={Employee} alt="Employee Directory" />
           <CardTitle>Employee Directory</CardTitle>
@@ -48,7 +48,7 @@ function Projects() {
         </Card>
       </Col>
 
-      <Col md="6">
+      <Col className="col-sm-6">
         <Card>
           <CardImg className="CardImg" src={NoteTaker} alt="Note Taker" />
           <CardTitle>Note Taker</CardTitle>
@@ -60,7 +60,7 @@ function Projects() {
           >See More</Button>
         </Card>
       </Col>
-      <Col md="6">
+      <Col className="col-sm-6">
         <Card>
           <CardImg className="CardImg" src={Budget} alt="Budget Tracker" />
           <CardTitle>On/Offline Budget Tracker</CardTitle>
@@ -72,7 +72,7 @@ function Projects() {
          >See More</Button>
         </Card>
       </Col>
-      <Col md="6">
+      <Col className="col-sm-6">
         <Card>
           <CardImg className="CardImg" src={Workout} alt="Workout Tracker" />
           <CardTitle>Workout App</CardTitle>
