@@ -23,8 +23,9 @@ ul {
   list-style-type: none;
 }
 /* Resume CSS */
-.resumePDF {
-  margin-left: 300px
+.resume {
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center;
 }
 
 /* Project CSS */
