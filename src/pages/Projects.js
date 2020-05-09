@@ -12,7 +12,7 @@ function Projects() {
   return (
     <Row className="projectRow">
       <Col className="col-sm-6">
-        <Card>
+        <Card className="card">
           <CardImg className="CardImg" src={Project1} alt="Project One" />
           <CardTitle>Project #1</CardTitle>
           <CardText>Travel Masters: Bringing the World to You!</CardText>
@@ -24,7 +24,7 @@ function Projects() {
         </Card>
       </Col>
       <Col className="col-sm-6">
-        <Card>
+        <Card className="card">
           <CardImg className="CardImg" src={QuizGame} alt="Quiz Game" />
           <CardTitle>Project #2</CardTitle>
          <CardText>Quiz Game: Create and Take Quizzes with this full-stack app</CardText>
@@ -36,7 +36,7 @@ function Projects() {
         </Card>
       </Col>
       <Col className="col-sm-6">
-        <Card>
+        <Card className="card">
           <CardImg className="CardImg" src={Employee} alt="Employee Directory" />
           <CardTitle>Employee Directory</CardTitle>
          <CardText>First React App</CardText>
@@ -49,10 +49,10 @@ function Projects() {
       </Col>
 
       <Col className="col-sm-6">
-        <Card>
+        <Card className="card">
           <CardImg className="CardImg" src={NoteTaker} alt="Note Taker" />
           <CardTitle>Note Taker</CardTitle>
-          <CardText>Note Taker information here</CardText>
+          <CardText>An Express Note Taker App</CardText>
           <Button
           outline color="secondary"
           href="https://note-taker-lwh.herokuapp.com/"
@@ -61,7 +61,7 @@ function Projects() {
         </Card>
       </Col>
       <Col className="col-sm-6">
-        <Card>
+        <Card className="card">
           <CardImg className="CardImg" src={Budget} alt="Budget Tracker" />
           <CardTitle>On/Offline Budget Tracker</CardTitle>
          <CardText>Use this budget tracker to track your expenses on and off line.</CardText>
@@ -73,10 +73,10 @@ function Projects() {
         </Card>
       </Col>
       <Col className="col-sm-6">
-        <Card>
+        <Card className="card">
           <CardImg className="CardImg" src={Workout} alt="Workout Tracker" />
           <CardTitle>Workout App</CardTitle>
-         <CardText>Info on Workout App</CardText>
+         <CardText>A fitness tracker application made with a Mongo database, Mongoose schema and Express handle routes</CardText>
          <Button
          outline color="secondary"
           href="https://quarantine-workout-app.herokuapp.com/"

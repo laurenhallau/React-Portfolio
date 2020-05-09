@@ -35,3 +35,21 @@ ul {
 .CardImg {
   align-self: flex-end;
 }
+.card {
+  text-align: center;
+}
+
+.body {
+  background-color: #f2f2f2;
+}
+
+/* Contact CSS */
+.link {
+font-size: 1.5rem;
+}
+.far {
+  margin-right: 11px;
+}
+.fab {
+  margin-right: 11px;
+}
