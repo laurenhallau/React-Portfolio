@@ -2,6 +2,6 @@
 Unit 20 React Homework: React Portfolio
 
 ## Deployed App
-Click [HERE] (https://lauren-hallau.herokuapp.com/) 
+https://lauren-hallau.herokuapp.com/
 
 
