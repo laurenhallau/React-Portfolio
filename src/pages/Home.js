@@ -12,21 +12,26 @@ function Home() {
         </Col>
         <Col size="sm-8">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Et
-            malesuada fames ac turpis egestas. Lacinia at quis risus sed
-            vulputate odio. Diam sit amet nisl suscipit. Tempus imperdiet nulla
-            malesuada pellentesque elit eget gravida cum. 
+            Hello and welcome to my website! A little about me! I have an
+            extensive background in education, a love of languages, and a strong
+            interest in creating meaningful work.
           </p>
           <br />
           <p>
             {" "}
-            Imperdiet proin fermentum leo vel orci porta. Viverra
-            aliquet eget sit amet. Aenean pharetra magna ac placerat vestibulum
-            lectus. Tincidunt vitae semper quis lectus nulla at volutpat. Amet
-            porttitor eget dolor morbi. Sit amet dictum sit amet justo donec
-            enim diam. Congue eu consequat ac felis donec et odio pellentesque
-            diam.
+            I bring a unique skill set and experience to the world of full-stack
+            web development. Ultimately I would like to combine my experience in
+            education with my knowledge of computer programs and apply that to
+            creating the best experience for our learners and teachers.
+          </p>
+          <p>
+            ¡Hola y bienvenidos a mi sitio web! ¡Un poco sobre mí! Yo tengo un
+            experiencia ampliaen educación, amor por los idiomas y
+          gran interés en crear trabajo significativo. Aporto un conjunto de habilidades 
+          y experiencia únicas al mundo del full-stack desarrollo web. En última instancia, me gustaría
+            combinar mi experiencia en educación con mi conocimiento de programas de computadora y aplicar eso a
+          creando la mejor experiencia para nuestros alumnos y
+            profesores.
           </p>
         </Col>
       </Row>
