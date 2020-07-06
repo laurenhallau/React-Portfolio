@@ -1,4 +1,5 @@
 
+  /* Home CSS */
   img{
     order: 1px solid #ddd;
     border-radius: 4px;
@@ -7,8 +8,9 @@
     /* margin-left: 75px; */
   }
 
-  .col {
+  .container {
     font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
     margin-top: 120px;
   }
 

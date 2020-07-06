@@ -11,11 +11,10 @@ function Home() {
         </div>
         <div className="col-8" >
           <p>
-            Hello and welcome to my website! A little about me! I have an
-            extensive background in education, a love of languages, and a strong
+            Hello and welcome! A little about me! Lifelong-learner with an
+            extensive background in education, a lover of languages, and a strong
             interest in creating meaningful work.
           </p>
-          <br />
           <p>
             {" "}
             I bring a unique skill set and experience to the world of full-stack
