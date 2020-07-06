@@ -1,16 +1,15 @@
 import React from "react";
-import { Container, Row, Col } from "reactstrap";
 import ProfilePic from "../images/lwh.jpg";
 import "./style.css";
 
 function Home() {
   return (
-    <Container fluid>
-      <Row>
-        <Col size="sm-4">
+    <div className="container">
+      <div className="row">
+        <div className="col-4">
           <img src={ProfilePic} alt="Lauren Hallau Pic"></img>
-        </Col>
-        <Col size="sm-8">
+        </div>
+        <div className="col-8" >
           <p>
             Hello and welcome to my website! A little about me! I have an
             extensive background in education, a love of languages, and a strong
@@ -33,9 +32,9 @@ function Home() {
           creando la mejor experiencia para nuestros alumnos y
             profesores.
           </p>
-        </Col>
-      </Row>
-    </Container>
+        </div>
+      </div>
+    </div>
   );
 }
 
