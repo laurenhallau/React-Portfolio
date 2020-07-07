@@ -16,7 +16,7 @@ function Projects() {
           <CardImg className="CardImg" src={Project1} alt="Project One" />
           <CardTitle>Project #1</CardTitle>
           <CardText>Travel Masters: Bringing the World to You!</CardText>
-          <Button 
+          <Button className="button"
           outline color="secondary"
           href="https://github.com/stevekindt/Project-1"
           target="_blank"
