@@ -14,8 +14,8 @@ function Projects() {
       <Col className="col-6">
         <Card className="card">
           <CardImg className="CardImg" src={Project1} alt="Project One" />
-          <CardTitle>Project #1</CardTitle>
-          <CardText>Travel Masters: Bringing the World to You!</CardText>
+          <CardTitle className="cardTitle">Project #1</CardTitle>
+          <CardText className="cardText">Travel Masters: Bringing the World to You!</CardText>
           <Button className="button"
           outline color="secondary"
           href="https://github.com/stevekindt/Project-1"
@@ -26,8 +26,8 @@ function Projects() {
       <Col className="col-6">
         <Card className="card">
           <CardImg className="CardImg" src={QuizGame} alt="Quiz Game" />
-          <CardTitle>Project #2</CardTitle>
-         <CardText>Quiz Game: Create and Take Quizzes with this full-stack app</CardText>
+          <CardTitle className="cardTitle">Project #2</CardTitle>
+         <CardText className="cardText">Quiz Game: Create and Take Quizzes with this full-stack app</CardText>
          <Button
          outline color="secondary"
           href="https://gold-team-quiz.herokuapp.com/"
@@ -38,8 +38,8 @@ function Projects() {
       <Col className="col-6">
         <Card className="card">
           <CardImg className="CardImg" src={Employee} alt="Employee Directory" />
-          <CardTitle>Employee Directory</CardTitle>
-         <CardText>First React App</CardText>
+          <CardTitle className="cardTitle">Employee Directory</CardTitle>
+         <CardText className="cardText">First React App</CardText>
          <Button
          outline color="secondary"
           href="https://employee-directory-lwh.herokuapp.com/"
@@ -51,8 +51,8 @@ function Projects() {
       <Col className="col-6">
         <Card className="card">
           <CardImg className="CardImg" src={NoteTaker} alt="Note Taker" />
-          <CardTitle>Note Taker</CardTitle>
-          <CardText>An Express Note Taker App</CardText>
+          <CardTitle className="cardTitle">Note Taker</CardTitle>
+          <CardText className="cardText">An Express Note Taker App</CardText>
           <Button
           outline color="secondary"
           href="https://note-taker-lwh.herokuapp.com/"
@@ -63,8 +63,8 @@ function Projects() {
       <Col className="col-6">
         <Card className="card">
           <CardImg className="CardImg" src={Budget} alt="Budget Tracker" />
-          <CardTitle>On/Offline Budget Tracker</CardTitle>
-         <CardText>Use this budget tracker to track your expenses on and off line.</CardText>
+          <CardTitle className="cardTitle">On/Offline Budget Tracker</CardTitle>
+         <CardText className="cardText">Use this budget tracker to track your expenses on and off line.</CardText>
          <Button
          outline color="secondary"
           href="https://budget-tracker-lwh.herokuapp.com/"
@@ -75,8 +75,8 @@ function Projects() {
       <Col className="col-6">
         <Card className="card">
           <CardImg className="CardImg" src={Workout} alt="Workout Tracker" />
-          <CardTitle>Workout App</CardTitle>
-         <CardText>A fitness tracker application made with a Mongo database, Mongoose schema and Express handle routes</CardText>
+          <CardTitle className="cardTitle">Workout App</CardTitle>
+         <CardText >A fitness tracker application made with a Mongo database, Mongoose schema and Express handle routes</CardText>
          <Button
          outline color="secondary"
           href="https://quarantine-workout-app.herokuapp.com/"

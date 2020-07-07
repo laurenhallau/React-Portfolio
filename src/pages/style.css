@@ -32,17 +32,20 @@ ul {
 
 /* Project CSS */
 .projectRow {
-  display: inline-flex;
-  flex-wrap: wrap;
+  /* display: inline-flex;
+  flex-wrap: wrap; */
+  justify-content: space-evenly;
+  margin-left: 60px;
+  
 }
 .CardImg {
   align-self: flex-end;
 }
 .card {
   text-align: center;
-  width: 36rem;
+  width: 32rem;
   height: 28rem;
-  padding: 24px
+  padding: 24px;
 }
 
 body {
@@ -50,6 +53,16 @@ body {
 }
 .col-6 {
   padding: 10px;
+}
+.cardTitle {
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center;
+  font-size: x-large;
+}
+.cardText {
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center;
+  font-size: medium;
 }
 
 /* Contact CSS */
@@ -65,3 +78,4 @@ font-size: 1.5rem;
 .ContactContainer {
   align-items: center;
 }
+
