@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardImg, CardTitle, CardText, Button, Row, Col } from "reactstrap";
+import { Card, CardImg, CardTitle, CardText, Button, Col } from "reactstrap";
 import Project1 from "../images/project1.png";
 import QuizGame from "../images/quizgame.png";
 import Employee from "../images/employee.png";
@@ -10,7 +10,7 @@ import "./style.css";
 
 function Projects() {
   return (
-    <Row className="projectRow">
+    <row className="projectRow">
       <Col className="col-6">
         <Card className="card">
           <CardImg className="CardImg" src={Project1} alt="Project One" />
@@ -84,7 +84,7 @@ function Projects() {
          >See More</Button>
         </Card>
       </Col>
-    </Row>
+    </row>
     
   );
 }   
