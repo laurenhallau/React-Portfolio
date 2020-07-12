@@ -16,7 +16,7 @@ function Projects() {
         <Card className="card">
           <CardImg className="CardImg" src={Project1} alt="Project One" />
           <CardTitle className="cardTitle">Travel Masters</CardTitle>
-          <CardText className="cardText">A travel application where users learn weather, facts, and map data on places they are visiting. Utilizing REST and Google Maps API's, the Foundation CSS framework, HTML, JavaScript and jQuery.</CardText>
+          <CardText className="cardText">A travel application where users search a location to get current weather, interesting facts, and map data on places they are visiting. Utilizing REST and Google Maps API's, the Foundation CSS framework, HTML, JavaScript and jQuery.</CardText>
           <Button className="button"
           outline color="secondary"
           href="https://github.com/stevekindt/Project-1"
@@ -89,7 +89,7 @@ function Projects() {
         <Card className="card">
           <CardImg className="CardImg" src={NoteTaker} alt="Note Taker" />
           <CardTitle className="cardTitle">Note Taker</CardTitle>
-          <CardText className="cardText">An Express Note Taker application that allows users to write, save, and delete notes. Built using Bootstrap CSS framework.</CardText>
+          <CardText className="cardText">An Express Note Taker application that allows users to write, save, and delete notes. Built using Bootstrap CSS framework. This application uses an express backend and saves and retrieves note data from a JSON file.</CardText>
           <Button className="button"
           outline color="secondary"
           href="https://github.com/laurenhallau/Note-Taker"
@@ -120,7 +120,7 @@ function Projects() {
           href="https://quarantine-workout-app.herokuapp.com/"
           target="_blank"
          >Deployed App</Button>
-         <Button>TESTING</Button>
+         
         </Card>
       </Col>
     </row>
