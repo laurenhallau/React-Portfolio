@@ -5,9 +5,9 @@ import "./style.css";
 function Contact() {
     return (
         <Container className="ContactContainer">
-          <Row>
+          <Row className="Row">
             <Col>
-              <h4>I look forward to hearing from you!</h4>
+              <h4>Contact Me:</h4>
               <ul>
                 <li><i className="far fa-envelope"></i> 
                 <a className="link" href="mailto:lhallau@gmail.com">Email </a></li>

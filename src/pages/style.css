@@ -16,9 +16,9 @@
 
  
 
-.ContactContainer {
+/* .ContactContainer {
   text-align: center;
-}
+} */
 
 
 ul {
@@ -80,6 +80,11 @@ font-size: 1.5rem;
   margin-right: 11px;
 }
 .ContactContainer {
-  align-items: center;
+  font-family: 'Cormorant Garamond', serif;
+  color:#505050;
+}
+.Row {
+  text-align: center;
+  
 }
 

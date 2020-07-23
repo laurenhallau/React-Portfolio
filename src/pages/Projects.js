@@ -53,7 +53,7 @@ function Projects() {
         <Card className="card">
           <CardImg className="CardImg" src={SugarRush} alt="Budget Tracker" />
           <CardTitle className="cardTitle">Sugar Rush</CardTitle>
-         <CardText className="cardText">A full-stack food delivery application that connects users with their favorie local desserts. Built using the MERN stack, passport authentication, and the Materialize framework.</CardText>
+         <CardText className="cardText">A full-stack food delivery application that connects users with their favorite local desserts. Built using the MERN stack, passport authentication, and the Materialize framework.</CardText>
          <Button className="button"
          outline color="secondary"
           href="https://github.com/laurenhallau/Sugar-Rush"
