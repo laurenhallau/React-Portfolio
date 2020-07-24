@@ -27,7 +27,20 @@ ul {
 /* Resume CSS */
 .resume {
   font-family: 'Cormorant Garamond', serif;
+  margin-left: 20px;
+  margin-right: 20px;
+  
+}
+.Intro {
   text-align: center;
+}
+
+h4 {
+  font-weight: bold;
+  text-align: center;
+}
+h5 {
+  font-weight: bold;
 }
 
 /* Project CSS */

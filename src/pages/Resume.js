@@ -7,24 +7,37 @@ import React from "react";
 function Resume() {
   return (
     <div className="resume">
+    <p className="Intro">
       <h3>Lauren W Hallau</h3>
       <p>Phone: 952-220-9484 | Email: lhallau@gmail.com</p>
-      <p> LinkedIn: https://www.linkedin.com/in/lauren-hallau-82393744/</p>
-      <p> Github: https://github.com/laurenhallau</p>
-      <p>Portfolio: https://laurenhallau.github.io/Responsive-Portfolio/</p>
+      <a href="https://www.linkedin.com/in/lauren-hallau-82393744/" 
+      target="_blank" 
+      rel="noopener noreferrer">LinkedIn </a> 
+      <a href="https://github.com/laurenhallau"
+      target="_blank" 
+      rel="noopener noreferrer" > Github</a>
+      <a href="https://laurenhallau.github.io/Responsive-Portfolio/" 
+      target="_blank" 
+      rel="noopener noreferrer"> Portfolio</a></p>
+      <br></br>
 
       <h4>Summary</h4>
       <p>
-        Full Stack Web Developer with a background in Elementary Education and
-        life-long dedication to learning. Effective at combining creativity and
-        problem solving to develop user-friendly applications. Known among staff
-        for strong wit and attention to detail no matter the complexity of the
-        project.{" "}
+      Full Stack Web Developer with an extensive background in Elementary 
+      Education looking for and life-long dedication to learning and teaching. 
+      Effective at combining creativity and problem solving to develop user-friendly 
+      applications.  {" "}
       </p>
 
       <h4>Developing Technical Skills</h4>
-      <p>Languages: HTML, CSS, JavaScript, jQuery, Sequelize, Handlebars</p>
-      <p> Tools:: Node.js, Bootstrap, Foundation, MySQL, MongoDB, React</p>
+      <p>Browser Based Technologies: HTML, CSS, JavaScript,  jQuery, Responsive Design, Bootstrap, Handlebars, Local Storage, Session Storage, IndexedDB, React.js </p>
+      <p>Deployment: Heroku, Git </p>
+      <p>Databases: MySQL, MongoDB </p>
+      <p>Server-Side Development: Express, User Authentication, Sequelize,  MERN Stack (MongoDB, Express.js, React.js, Node.js)</p>
+      <p>Quality and Performance: Unit Testing, Google Lighthouse, Webpack, PWAs (Progressive Web Apps), Service Workers</p>
+      <p>Agile Development: Kanban, Project Management, Issues, User Stories, Standup
+      </p>
+      
 
       <h4>Projects</h4>
       <h5>Workday Scheduler </h5>
